@@ -29,9 +29,9 @@ reviews
 geolocation
 
 # Tech stack
-Azure SQL
-SQL
-GitHub for version control and documentation
+- Azure SQL
+- SQL
+- GitHub for version control and documentation
 
 # Transformation steps
 
@@ -40,34 +40,34 @@ Raw tables were loaded into Azure SQL with minimal changes.
 
 # Silver
 Cleaning and standardization steps included:
-removing duplicates
-fixing null values where needed
-standardizing column names
-converting data types
-validating keys and joins
-handling inconsistent records
+- removing duplicates
+- fixing null values where needed
+- standardizing column names
+- converting data types
+- validating keys and joins
+- handling inconsistent records
 
 # Gold
 Gold tables were created for analytics use cases such as:
-sales performance
-customer behavior
-delivery performance
-seller analysis
-payment trends
+- sales performance
+- customer behavior
+- delivery performance
+- seller analysis
+- payment trends
 
 # Example gold tables
-gold_orders
-gold_customers
-gold_sales_summary
-gold_delivery_metrics
-Data quality checks
+- gold_orders
+- gold_customers
+- gold_sales_summary
+- gold_delivery_metrics
+- Data quality checks
 
 # Examples of implemented checks:
-duplicate order IDs
-null primary keys
-invalid payment values
-inconsistent delivery dates
-orphan foreign keys
+- duplicate order IDs
+- null primary keys
+- invalid payment values
+- inconsistent delivery dates
+- orphan foreign keys
 
 # Example query
 SELECT
