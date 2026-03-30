@@ -19,14 +19,14 @@ Gold: business-ready analytical tables
 # Dataset
 Source dataset: Brazilian E-Commerce Public Dataset by Olist
 Main entities include:
-customers
-orders
-order items
-payments
-products
-sellers
-reviews
-geolocation
+- customers
+- orders
+- order items
+- payments
+- products
+- sellers
+- reviews
+- geolocation
 
 # Tech stack
 - Azure SQL
